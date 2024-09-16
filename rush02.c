@@ -6,7 +6,7 @@
 /*   By: lukozime <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/14 13:08:54 by lukozime          #+#    #+#             */
-/*   Updated: 2024/09/15 14:34:32 by lukozime         ###   ########.fr       */
+/*   Updated: 2024/09/16 09:53:24 by lukozime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ void	ft_print(int width, char first, char middle, char last)
 	while (i <= width - 2)
 	{
 		ft_putchar(middle);
+		i++;
 	}
 	if (width > 1)
 		ft_putchar(last);
@@ -48,9 +49,9 @@ void	rush(int x, int y)
 		}
 	}
 }
-
+/*
 int	main(void)
 {
-	rush(5, 6);
+	rush(100, 100);
 	return (0);
-}
+}*/
